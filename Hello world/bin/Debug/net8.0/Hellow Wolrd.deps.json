@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Hellow Wolrd/1.0.0": {
+        "runtime": {
+          "Hellow Wolrd.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Hellow Wolrd/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
