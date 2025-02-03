@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hellow Wolrd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51da55a9dd2d09764ece7d5ad77a45bc387e943d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hellow Wolrd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hellow Wolrd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
