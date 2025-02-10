@@ -33,7 +33,7 @@ namespace L20250204
             A = (int)B;
             C = (long)B;
 
-            int.TryParse(datas[1], out A);
+            int.TryParse(datas[3], out A);
 
             A.ToString();
 
