@@ -6,6 +6,7 @@
   * 프로그래밍이란 그냥 만들기이자 구현하기이다!
  
 <hr/>
+
 * 값형(value type) : int / float / bool / char / struct ← stack에 생성됨
 * 참조형 :  class / int[] / string ← Heap에 생성됨
 
