@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250211\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4B8446C-8D83-4DF5-95E1-A65770290645}|L20250211.csproj|c:\\users\\user\\documents\\github\\hello wolrd\\l20250211\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B8446C-8D83-4DF5-95E1-A65770290645}|L20250211.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4B8446C-8D83-4DF5-95E1-A65770290645}|L20250211.csproj|c:\\users\\user\\documents\\github\\hello wolrd\\l20250211\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B8446C-8D83-4DF5-95E1-A65770290645}|L20250211.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B8446C-8D83-4DF5-95E1-A65770290645}|L20250211.csproj|c:\\users\\user\\documents\\github\\hello wolrd\\l20250211\\slime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B8446C-8D83-4DF5-95E1-A65770290645}|L20250211.csproj|solutionrelative:slime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B8446C-8D83-4DF5-95E1-A65770290645}|L20250211.csproj|c:\\users\\user\\documents\\github\\hello wolrd\\l20250211\\goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B8446C-8D83-4DF5-95E1-A65770290645}|L20250211.csproj|solutionrelative:goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B8446C-8D83-4DF5-95E1-A65770290645}|L20250211.csproj|c:\\users\\user\\documents\\github\\hello wolrd\\l20250211\\wildboar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B8446C-8D83-4DF5-95E1-A65770290645}|L20250211.csproj|solutionrelative:wildboar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B8446C-8D83-4DF5-95E1-A65770290645}|L20250211.csproj|c:\\users\\user\\documents\\github\\hello wolrd\\l20250211\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B8446C-8D83-4DF5-95E1-A65770290645}|L20250211.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B8446C-8D83-4DF5-95E1-A65770290645}|L20250211.csproj|c:\\users\\user\\documents\\github\\hello wolrd\\l20250211\\charcter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B8446C-8D83-4DF5-95E1-A65770290645}|L20250211.csproj|solutionrelative:charcter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B8446C-8D83-4DF5-95E1-A65770290645}|L20250211.csproj|c:\\users\\user\\documents\\github\\hello wolrd\\l20250211\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B8446C-8D83-4DF5-95E1-A65770290645}|L20250211.csproj|solutionrelative:monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +43,95 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250211\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250211\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250211\\Game.cs",
+              "RelativeDocumentMoniker": "Game.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250211\\Game.cs*",
+              "RelativeToolTip": "Game.cs*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwDwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T23:22:13.004Z",
+              "WhenOpened": "2025-02-11T00:15:45.007Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Charcter.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250211\\Charcter.cs",
+              "RelativeDocumentMoniker": "Charcter.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250211\\Charcter.cs",
+              "RelativeToolTip": "Charcter.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvw4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T00:25:13.059Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Monster.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250211\\Monster.cs",
+              "RelativeDocumentMoniker": "Monster.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250211\\Monster.cs",
+              "RelativeToolTip": "Monster.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T00:06:21.454Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250211\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250211\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwBcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T00:14:53.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WildBoar.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250211\\WildBoar.cs",
+              "RelativeDocumentMoniker": "WildBoar.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250211\\WildBoar.cs",
+              "RelativeToolTip": "WildBoar.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T00:08:01.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Goblin.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250211\\Goblin.cs",
+              "RelativeDocumentMoniker": "Goblin.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250211\\Goblin.cs",
+              "RelativeToolTip": "Goblin.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T00:06:59.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Slime.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250211\\Slime.cs",
+              "RelativeDocumentMoniker": "Slime.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250211\\Slime.cs",
+              "RelativeToolTip": "Slime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T00:07:25.458Z",
               "EditorCaption": ""
             }
           ]
