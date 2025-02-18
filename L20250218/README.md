@@ -1,119 +1,362 @@
-## 2020.02.17
-- 유니티 특수폴더
-  - Editor폴더에 있는 것 먼저 컴파일
-  - Editor - 런타입이 아닌 에디터스크립트로 판단 - 특수용도로만 만들기에 자주 사용하지말 것!
-  - Resources - 메모리를 다 로딩함 - 최적화할때 여기다 넣지말 것!
+## 2025.02.18
 
-- 싱글톤 - 존재하는 이유가 단 하나여야만할때 사용한다.
-  - 이러한 디자인패턴 - 알고 쓸 것.
-
-왜 쓸거냐 늘 생각하기.
-
-##### 기본형태
-메모리
-1. 공간 -> 자료형 기본형
-2. int float string bool / 연산자 ()
-3. array[]
-4. for / while
-5. if
-
-//stack에 생성 - 값형
-struct
-{
-
-}
-
-
-//heap에 생성 - 참조형
-커스텀 자료형 = class
-class(형태 / 게임에서의 직업)
+* C#을 할 수 있다는 것
+	* 기본예약어
+	* 객체 프로그래밍 
+	* Collection 사용 가능(Array(배열),DynamicArray(동적배열),Queue,LinkList) 만들어봤는가?
+	* Collection을 하는 이유 : 최적화
 
 ```cs
-class Adata
+namespace L20250218
 {
-	public Adata()
- {
- 
- }
-  ~Adata()
-  {
+    class DynamicArray
+    {
+        public DynamicArray()
+        {
 
-  }
+        }
+
+        ~DynamicArray()
+        {
+
+        }
+
+        //objects
+        //[1][2][3]
+        // ^  ^  ^  ^
+        //newObjects
+        //[1][2][3][][][]
+        //          ^
+        //objects <- newObjects 
+        //[1][2][3][4][][]
+        //          ^
+        public void Add(Object inObject)
+        {
+            if (count >= objects.Length)
+            {
+                ExtendSpace();
+            }
+            objects[count] = inObject;
+            count++;
+        }
+
+        protected void ExtendSpace()
+        {
+            //배열 늘이기
+            //이전 정보 옮기기
+            Object[] newObject = new Object[objects.Length * 2];
+            //이전값 이동
+            for (int i = 0; i < objects.Length; ++i)
+            {
+                newObject[i] = objects[i];
+            }
+            objects = null;
+            objects = newObject;
+        }
+
+        //[][][][][]
+        public bool Remove(Object removObject)
+        {
+            for (int i = 0; i < Count; ++i)
+            {
+                if (removObject == objects[i])
+                {
+                    return RemoveAt(i);
+                }
+            }
+
+            return false;
+        }
+
+        //[][][][][][]
+        public bool RemoveAt(int index)
+        {
+            if (index >= 0 && index < Count)
+            {
+                for (int i = index; i < Count - 1; ++i)
+                {
+                    objects[i] = objects[i + 1];
+                }
+
+                count--;
+                return true;
+            }
+
+            return false;
+        }
+
+        //[1][2][3]
+        //Insert(2, 5);
+        //[1][2][3][4]
+        public void Insert(int insertIndex, Object value)
+        {
+            //3 == 3  + 1 -> [1][2][3] - >[1][2][3][][][]
+            //1. object.length == count
+            //확장
+            //추가 
+            //3 == 2 + 1     [1][2][3][][][]
+            //2. object.length < count
+            //확장 X
+            //추가
+            if (objects.Length == count)
+            {
+                ExtendSpace();
+            }
+
+
+            for (int i = count; i > insertIndex; --i)
+            {
+                objects[i] = objects[i - 1];
+            }
+            objects[insertIndex + 1] = value;
+            count++;
+        }
+
+        protected Object[] objects = new Object[10];
+
+        protected int count = 0;
+
+        public int Count
+        {
+            get
+            {
+                return count;
+            }
+        }
+
+        public Object this[int index]
+        {
+            get
+            {
+                return objects[index];
+            }
+            set
+            {
+                if (index < objects.Length)
+                {
+                    objects[index] = value;
+                }
+            }
+        }
+    }
+
+    //Generic
+    //형태가 동일 해져서 버그 발생이 적어짐
+
+
+
+
+    class Program
+    {   //overloading
+        //Generic Programming -> meta Programming
+        static public void Print<T>(T[] data)
+        {
+            for (int i = 0; i < data.Length; ++i)
+            { 
+                Console.WriteLine(data[i]);
+            
+            }
+        
+        }
+
+        /*  static public void Print(char[] data)
+          {
+              for (int i = 0; i < data.Length; ++i)
+              {
+                  Console.WriteLine(data[i]);
+
+              }
+          }
+
+          static public void Print(string[] data)
+          {
+              for (int i = 0; i < data.Length; ++i)
+              {
+                  Console.WriteLine(data[i]);
+
+              }
+
+          }*/
+
+        //static public int Add<T>(T x, T y)
+        //{
+        //    return x + y;
+        //}
+        // 이러면 오류나온다. 여러 종류 중 gameObject에서 더하기란 없기때문!
+        
+        static void Main(string[] args)
+        {
+            int[] numbers = { 1, 2, 3, 4 };
+            char[] numberToChar = { 'A', 'B', 'C', 'D' };
+            string[] numberString = { "1111", "2222", "3333", "4444" };
+            GameObject[] gameObjects = new GameObject[3];
+
+
+
+
+
+
+            char A = 'A';
+            char B = 'B';
+            string line = A + B + "*";
+            //[] ->                  variable
+            //[][][][][]             array -> Array
+            //[][][][][][][][][][]   DynamicArray
+            //DataStructure          자료구조
+            //
+            DynamicArray a = new DynamicArray();
+            for (int i = 0; i < 10; ++i)
+            {
+                a.Add(i);
+            }
+
+            //DOWN CASTING
+            //boxing - unboxing
+
+            a[1] = 11;
+            a[9] = 29;
+
+
+
+            a.RemoveAt(9);
+            a.RemoveAt(1);
+            a.RemoveAt(3);
+            a.Insert(2, 11);
+            a.Insert(4, "배고파");
+            a.Add(new GameObject());
+
+            for (int i = 0; i < a.Count; ++i)
+            {
+                Console.Write(a[i] + ", ");
+            }
+            //equal - 두개의 화살표가 같은 것을 가리키는지 가르킨다면 True;
+            
+
+
+        }
+    }
 }
 ```
 
-* 데이터모델링
-  * 기획서든 이미지든 모든 정보를 명사하고 동사나눈다.
-  * 명사 - class / 동사 - class 메소드
-
-##### 상속성
-
-플레이어가 있다. 플레이어는 hp가 있다.
-몬스터도 있고 몬스터도 hp가 있다.
-player is character
-monster is character
-```cs
-class character
-{
-	protected(밖에서는 접근 못하지만 안에서는 상속 가능하도록) int hp;
-}
-class player : character
-{
-	
-}
-
-class monster : character
-{
-	
-}
-```
+#### TDynamicArray
 
 ```cs
-//캡슐화 - 좋은 상품은 단순한데 잘 작동하는 것이다!
-class test
+namespace L20250218
 {
-	public void do()
-	{
-		//남이 써도 죽지않게 예외 처리한다.
-	}
+    //Generic class
+    class TDynamicArray<T>  // : where T : new() 이런식으로 제약 가능 or where T : struct or where T : class
+    {
+        public TDynamicArray()
+        {
 
-	private void dohidden()
-	{
-		//내부에서 내가 처리 할꺼, 딴 사람은 몰라야 됨.
-	}
-	
-	public int hp
-	{
-		get; // hp;
-		set; // hp = 12;
-	}
+        }
 
-	public int gold
-	{
-		get
-		{
-			return gold;
-		}
-	}
+        ~TDynamicArray()
+        {
+
+        }
+       
+        public void Add(T inObject)
+        {
+            if (count >= objects.Length)
+            {
+                ExtendSpace();
+            }
+            objects[count] = inObject;
+            count++;
+        }
+
+        protected void ExtendSpace()
+        {
+
+            T[] newObject = new T[objects.Length * 2];
+            for (int i = 0; i < objects.Length; ++i)
+            {
+                newObject[i] = objects[i];
+            }
+            objects = null;
+            objects = newObject;
+        }
+
+        public bool Remove(T removObject)
+        {
+            for (int i = 0; i < Count; ++i)
+            {
+                if (removObject.Equals(objects[i]))
+                {
+                    return RemoveAt(i);
+                }
+            }
+
+            return false;
+        }
+
+        public bool RemoveAt(int index)
+        {
+            if (index >= 0 && index < Count)
+            {
+                for (int i = index; i < Count - 1; ++i)
+                {
+                    objects[i] = objects[i + 1];
+                }
+
+                count--;
+                return true;
+            }
+
+            return false;
+        }
+
+
+        public void Insert(int insertIndex, T value)
+        {
+
+            if (objects.Length == count)
+            {
+                ExtendSpace();
+            }
+
+
+            for (int i = count; i > insertIndex; --i)
+            {
+                objects[i] = objects[i - 1];
+            }
+            objects[insertIndex + 1] = value;
+            count++;
+        }
+
+        protected T[] objects = new T[10];
+
+        protected int count = 0;
+
+        public int Count
+        {
+            get
+            {
+                return count;
+            }
+        }
+
+        public T this[int index]
+        {
+            get
+            {
+                return objects[index];
+            }
+            set
+            {
+                if (index < objects.Length)
+                {
+                    objects[index] = value;
+                }
+            }
+        }
+
+
+    }
 }
+
+
 ```
-* 다형성 - 부모형식 공간에 자식 자료를 넣을 수 있다. / 그리고 실행시 알아서 부모와 자식 함수를 실행한다.
-"반복문이 단순화"
 
-```cs
-class Base
-{
-	public virtual void Do()
-	{
-	}
 
-}
-
-class Child : Base
-{
-	public override void Do()
-	{
-		
-	}
-```
-}
