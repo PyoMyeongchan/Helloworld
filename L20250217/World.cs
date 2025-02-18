@@ -34,5 +34,14 @@ namespace L20250217
             }
         }
 
+        public void Collide()
+        {
+            for (int i = 0; i < gameObjects.Length; i++)
+            {
+                gameObjects[i].Collide();
+            
+            }
+        
+        }
     }
 }

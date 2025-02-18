@@ -31,11 +31,12 @@ namespace L20250217
 
 
         protected bool isRunning = true;
-
+        public World world;
+        public string[] scene;
 
         public void Load()
         {
-            //file에서 로딩
+            
             string[] scene = {
                 "**********",
                 "*P       *",
@@ -93,6 +94,7 @@ namespace L20250217
         protected void Update()
         {
             world.Update();
+            world.Collide();
         }
 
         protected void Render()
@@ -113,6 +115,6 @@ namespace L20250217
         }
 
 
-        public World world;
+        
     }
 }

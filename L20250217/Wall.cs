@@ -14,5 +14,11 @@ namespace L20250217
             Y = inY;
             Shape = inShape;
         }
+
+        public override void Update()
+        {
+            
+        }
+    
     }
 }
