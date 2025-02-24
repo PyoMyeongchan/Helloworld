@@ -1,0 +1,15 @@
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224 - Problem\bin\Debug\net8.0\L20250224 - Problem.exe
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224 - Problem\bin\Debug\net8.0\L20250224 - Problem.deps.json
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224 - Problem\bin\Debug\net8.0\L20250224 - Problem.runtimeconfig.json
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224 - Problem\bin\Debug\net8.0\L20250224 - Problem.dll
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224 - Problem\bin\Debug\net8.0\L20250224 - Problem.pdb
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224 - Problem\obj\Debug\net8.0\L20250224 - Problem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224 - Problem\obj\Debug\net8.0\L20250224 - Problem.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224 - Problem\obj\Debug\net8.0\L20250224 - Problem.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224 - Problem\obj\Debug\net8.0\L20250224 - Problem.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224 - Problem\obj\Debug\net8.0\L20250224 - Problem.sourcelink.json
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224 - Problem\obj\Debug\net8.0\L20250224 - Problem.dll
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224 - Problem\obj\Debug\net8.0\refint\L20250224 - Problem.dll
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224 - Problem\obj\Debug\net8.0\L20250224 - Problem.pdb
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224 - Problem\obj\Debug\net8.0\L20250224 - Problem.genruntimeconfig.cache
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224 - Problem\obj\Debug\net8.0\ref\L20250224 - Problem.dll

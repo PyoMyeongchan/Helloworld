@@ -17,42 +17,38 @@ namespace L20250217
 
         public override void Update()
         {      
-            int temp = 0;
+           
 
             if (Input.GetKeyDown(ConsoleKey.UpArrow))
             {
-                temp = Y - 1;
-                if (Engine.Instance.scene[X][temp] != '*')
-                {
+              
+                
                     Y--;
-                }
+               
 
             }
             else if (Input.GetKeyDown(ConsoleKey.DownArrow))
             {
-                temp = X - 1;
-                if (Engine.Instance.scene[temp][Y] != '*')
-                {
+      
+         
                     X--;
-                }
+    
 
             }
             else if (Input.GetKeyDown(ConsoleKey.LeftArrow))
             {
-                temp = Y + 1; 
-                if (Engine.Instance.scene[X][temp] != '*')
-                {
+   
+            
                     Y++;
-                }
+              
 
             }
             else if (Input.GetKeyDown(ConsoleKey.RightArrow))
             {
-                temp = X + 1;
-                if (Engine.Instance.scene[temp][Y] != '*')
-                {
+        
+         
                     X++;
-                }
+     
 
             }
 
