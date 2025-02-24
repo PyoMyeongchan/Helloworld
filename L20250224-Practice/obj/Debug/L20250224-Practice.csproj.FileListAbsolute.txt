@@ -1,0 +1,7 @@
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224-Practice\bin\Debug\L20250224-Practice.exe.config
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224-Practice\bin\Debug\L20250224-Practice.exe
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224-Practice\bin\Debug\L20250224-Practice.pdb
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224-Practice\obj\Debug\L20250224-Practice.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224-Practice\obj\Debug\L20250224-Practice.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224-Practice\obj\Debug\L20250224-Practice.exe
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250224-Practice\obj\Debug\L20250224-Practice.pdb
