@@ -18,14 +18,15 @@ namespace L20250224_Practice
 
 
         public virtual void Update()
-        { 
-        
+        {
+    
         }
 
         public virtual void Render()
         {
-            Console.SetCursorPosition(x, y);
-            Console.Write(Shape);
+            //Console.SetCursorPosition(x, y);
+            //Console.Write(Shape);
+            Engine.backBuffer[y,x] = Shape;
         }
 
         public virtual void Collide()

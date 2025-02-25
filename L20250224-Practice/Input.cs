@@ -13,8 +13,11 @@ namespace L20250224_Practice
         ~Input() { }
 
         static public void Process()
-        { 
-            keyInfo = Console.ReadKey();
+        {
+            if (Console.KeyAvailable)
+            {
+                keyInfo = Console.ReadKey(true);
+            }
         }
 
         static protected ConsoleKeyInfo keyInfo;
@@ -24,6 +27,11 @@ namespace L20250224_Practice
         {
             return(keyInfo.Key == key);
 
+        }
+
+        public static void ClearInput()
+        {
+            keyInfo = new ConsoleKeyInfo();
         }
 
     }

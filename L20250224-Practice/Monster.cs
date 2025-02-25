@@ -8,6 +8,9 @@ namespace L20250224_Practice
 {
     public class Monster : GameObject
     {
+
+        private float elapsedTime= 0;
+
         private Random random = new Random();
         public Monster(int inX, int inY, char inShape)
         {
@@ -21,35 +24,47 @@ namespace L20250224_Practice
 
         public override void Update()
         {
-            int Direction = random.Next(0, 4);
-            if (Direction == 0)
+            if (elapsedTime >= 500.0f)
             {
-                if (!Checkcollision(x, y - 1))
+                
+
+                int Direction = random.Next(0, 4);
+                if (Direction == 0)
                 {
-                    y--;
+                    if (!Checkcollision(x, y - 1))
+                    {
+                        y--;
+                    }
                 }
-            }
-            if (Direction == 1)
-            {
-                if (!Checkcollision(x, y + 1))
+                if (Direction == 1)
                 {
-                    y++;
+                    if (!Checkcollision(x, y + 1))
+                    {
+                        y++;
+                    }
                 }
-            }
-            if (Direction == 2)
-            {
-                if (!Checkcollision(x - 1, y))
+                if (Direction == 2)
                 {
-                    x--;
+                    if (!Checkcollision(x - 1, y))
+                    {
+                        x--;
+                    }
                 }
-            }
-            if (Direction == 3)
-            {
-                if (!Checkcollision(x + 1, y))
+                if (Direction == 3)
                 {
-                    x++;
+                    if (!Checkcollision(x + 1, y))
+                    {
+                        x++;
+                    }
                 }
+                elapsedTime = 0;
+
+
             }
+            else
+            { 
+                elapsedTime += Time.deltaTime;
+            }   
 
         }
 

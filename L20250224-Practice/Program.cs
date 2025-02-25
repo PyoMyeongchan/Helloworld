@@ -8,28 +8,6 @@ using System.Threading.Tasks;
 
 namespace L20250224_Practice
 {
-    
-    class CustomException : Exception
-    {
-        public CustomException() : base("이거 내가 만든 예외")
-        {
-                        
-        
-        }
-
-
-    }
-    //Network에 접속했지만 비밀번호가 틀리다.
-    class WronpasswordException : Exception
-    {
-        public WronpasswordException() : base("비밀번호 틀림")
-        {
-
-
-        }
-
-
-    }
 
 
 
