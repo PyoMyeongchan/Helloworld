@@ -1,0 +1,15 @@
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225\bin\Debug\net8.0\L20250225.exe
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225\bin\Debug\net8.0\L20250225.deps.json
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225\bin\Debug\net8.0\L20250225.runtimeconfig.json
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225\bin\Debug\net8.0\L20250225.dll
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225\bin\Debug\net8.0\L20250225.pdb
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225\obj\Debug\net8.0\L20250225.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225\obj\Debug\net8.0\L20250225.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225\obj\Debug\net8.0\L20250225.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225\obj\Debug\net8.0\L20250225.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225\obj\Debug\net8.0\L20250225.sourcelink.json
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225\obj\Debug\net8.0\L20250225.dll
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225\obj\Debug\net8.0\refint\L20250225.dll
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225\obj\Debug\net8.0\L20250225.pdb
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225\obj\Debug\net8.0\L20250225.genruntimeconfig.cache
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225\obj\Debug\net8.0\ref\L20250225.dll

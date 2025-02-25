@@ -1,0 +1,7 @@
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225 - class\obj\Debug\L20250225 - class.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225 - class\obj\Debug\L20250225 - class.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225 - class\bin\Debug\L20250225 - class.exe.config
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225 - class\bin\Debug\L20250225 - class.exe
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225 - class\bin\Debug\L20250225 - class.pdb
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225 - class\obj\Debug\L20250225 - class.exe
+C:\Users\user\Documents\GitHub\Hello Wolrd\L20250225 - class\obj\Debug\L20250225 - class.pdb
