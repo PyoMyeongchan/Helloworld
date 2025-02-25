@@ -58,7 +58,7 @@ namespace L20250224_Practice
         }
         static void Main(string[] args)
         {
-            Engine.Instance.Load("Level02.map");
+            Engine.Instance.Load("Level01.map");
             Engine.Instance.Run();
 
 

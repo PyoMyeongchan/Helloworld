@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250224-Practice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D08BB311-6C66-47E3-8E21-6C766ED42175}|L20250224-Practice.csproj|C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250224-Practice\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D08BB311-6C66-47E3-8E21-6C766ED42175}|L20250224-Practice.csproj|C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250224-Practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08BB311-6C66-47E3-8E21-6C766ED42175}|L20250224-Practice.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08BB311-6C66-47E3-8E21-6C766ED42175}|L20250224-Practice.csproj|c:\\users\\user\\documents\\github\\hello wolrd\\l20250224-practice\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D08BB311-6C66-47E3-8E21-6C766ED42175}|L20250224-Practice.csproj|solutionrelative:gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,11 +19,7 @@
       "RelativeMoniker": "D:0:0:{D08BB311-6C66-47E3-8E21-6C766ED42175}|L20250224-Practice.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D08BB311-6C66-47E3-8E21-6C766ED42175}|L20250224-Practice.csproj|C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250224-Practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D08BB311-6C66-47E3-8E21-6C766ED42175}|L20250224-Practice.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D08BB311-6C66-47E3-8E21-6C766ED42175}|L20250224-Practice.csproj|c:\\users\\user\\documents\\github\\hello wolrd\\l20250224-practice\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D08BB311-6C66-47E3-8E21-6C766ED42175}|L20250224-Practice.csproj|C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250224-Practice\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D08BB311-6C66-47E3-8E21-6C766ED42175}|L20250224-Practice.csproj|solutionrelative:engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -50,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250224-Practice\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250224-Practice\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T04:19:33.009Z",
               "IsPinned": true,
@@ -77,8 +77,7 @@
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T04:21:14.486Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -91,18 +90,17 @@
               "ViewState": "AgIAAA8AAAAAAAAAAAAowBkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T04:21:26.151Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GameObject.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250224-Practice\\GameObject.cs",
               "RelativeDocumentMoniker": "GameObject.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250224-Practice\\GameObject.cs",
               "RelativeToolTip": "GameObject.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAiwCQAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwAkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T04:21:39.167Z",
               "IsPinned": true,
@@ -110,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250224-Practice\\Player.cs",
               "RelativeDocumentMoniker": "Player.cs",
@@ -119,12 +117,11 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T04:22:38.186Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Monster.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\L20250224-Practice\\Monster.cs",
               "RelativeDocumentMoniker": "Monster.cs",
@@ -133,8 +130,7 @@
               "ViewState": "AgIAAAkAAAAAAAAAAAAkwB4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T04:22:45.56Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -147,8 +143,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T04:22:57.69Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -161,8 +156,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T04:22:50.867Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -175,8 +169,7 @@
               "ViewState": "AgIAAAYAAAAAAAAAAADwvwwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T04:31:14.381Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -188,8 +181,7 @@
               "RelativeToolTip": "Goal.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAqwBAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T04:48:06.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T04:48:06.757Z"
             }
           ]
         }

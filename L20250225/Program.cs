@@ -12,7 +12,7 @@ using System.Collections;
 namespace L20250225
 {
 
-    class DynamicArray<T>
+    public class DynamicArray<T> : IEnumerable<T>, IEnumerable
     {
         protected T[] data;
         protected int count;
@@ -52,7 +52,23 @@ namespace L20250225
 
         }
 
+        public IEnumerator GetEnumerator()
+        {
+            for (int i = 0; i < count; i++)
+            {
+                yield return data[i];
 
+            }
+        }
+
+        IEnumerator<T> IEnumerable<T>.GetEnumerator()
+        {
+            for (int i = 0; i < count; i++)
+            {
+                yield return data[i];
+
+            }
+        }
 
         public T this[int index]
         {
@@ -164,27 +180,57 @@ namespace L20250225
 
     }
 
+    
+
+
 
 
     class Program
     {
-        static void Main2(string[] args)
-        {
-            List<int> list = new List<int>();
-            list.Add(1);
-            list.Add(2);
-            list.Add(3);
-            list.Add(4);
-            list.Add(1);
-            list.Add(2);
-            list.Add(3);
-            list.Add(4);
-            list.Add(1);
-            list.Add(2);
-            list.Add(3);
-            list.Add(4);
+        static int[] data = { 1, 2, 3, 4, 5 };
+        static int current = 0;
 
-            list.RemoveAt(11);
+        static IEnumerable GetNumbers()
+        {
+
+            for (int i = 0; i < data.Length; i++)
+            // Thread.Sleep(1000); - 1초 뒤 재생
+            {
+                Thread.Sleep(1000);
+                yield return data[i];
+
+
+            }
+
+            /*while (current < data.Length)
+            {
+
+                yield return data[current++];
+
+            }*/
+
+
+        }
+
+
+        static void Main(string[] args)
+        {
+            /*foreach (var i in GetNumbers())
+            { 
+                Console.WriteLine(i);
+            
+            }
+
+
+            return;*/
+
+
+            /*List<int> list = new List<int>();
+            list.Add(1);
+            list.Add(2);
+            list.Add(3);
+            list.Add(4);*/
+
 
             //for (int i = 0; i < list.Count; ++i)
             //{
@@ -192,10 +238,10 @@ namespace L20250225
             //}
 
             //range for
-            foreach (int value in list)
+            /*foreach (int value in list)
             {
                 Console.WriteLine(value);
-            }
+            }*/
 
             DynamicArray<int> dynamicArray = new DynamicArray<int>();
             dynamicArray.Add(1);
@@ -212,36 +258,38 @@ namespace L20250225
             dynamicArray.Add(4);
 
             dynamicArray.RemoveAt(11);
-            /*foreach (int value in dynamicArray)
+            foreach (int value in dynamicArray)  // 클래스가 IEnumerable에 상속해야 가능 / public IEnumerator GetEnumerator() 함수 작성해야 사용 가능
             {
-                Console.WriteLine(value);
-            }*/
-        }
-
-
-        static void Main(string[] args)
-        {
-
-
-
-            // 함수 강제 구현, 다중 상속 가능 (인터페이스로!)
-
-            Potion potion = new Potion();
-            Type type = potion.GetType();
-            if (typeof(Potion) == type.GetInterface("IItem"))
-            {
-                (potion as Potion).Use();
+                {
+                    Console.WriteLine(value);
+                }
             }
 
-            List<IItem> items = new List<IItem>();
-            items.Add(new Potion());
-            foreach (IItem item in items)
+
+            static void Main2(string[] args)
             {
-                item.Use();
+
+
+
+                // 함수 강제 구현, 다중 상속 가능 (인터페이스로!)
+
+                Potion potion = new Potion();
+                Type type = potion.GetType();
+                if (typeof(Potion) == type.GetInterface("IItem"))
+                {
+                    (potion as Potion).Use();
+                }
+
+                List<IItem> items = new List<IItem>();
+                items.Add(new Potion());
+                foreach (IItem item in items)
+                {
+                    item.Use();
+                }
+
             }
 
         }
 
     }
-
 }
