@@ -31,6 +31,7 @@ namespace L20250217
                 {
                     Y--;
                 }
+
             }
             if (Input.GetKeyDown(SDL_Keycode.SDLK_s) || Input.GetKeyDown(SDL_Keycode.SDLK_DOWN))
             {
@@ -46,6 +47,7 @@ namespace L20250217
                 {
                     X--;
                 }
+
             }
             if (Input.GetKeyDown(SDL_Keycode.SDLK_d) || Input.GetKeyDown(SDL_Keycode.SDLK_RIGHT))
             {
@@ -53,6 +55,7 @@ namespace L20250217
                 {
                     X++;
                 }
+
             }
         }
     }

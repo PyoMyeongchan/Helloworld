@@ -27,8 +27,8 @@ namespace L20250217
         public virtual void Render()
         {
             //X,Y 위치에 Shape 출력
-//            Console.SetCursorPosition(X, Y);
-//            Console.Write(Shape);
+            //Console.SetCursorPosition(X, Y);
+            //Console.Write(Shape);
             Engine.backBuffer[Y, X] = Shape;
 
             SDL.SDL_SetRenderDrawColor(Engine.Instance.myRenderer, color.r, color.g, color.b, color.a);

@@ -185,6 +185,8 @@ namespace L20250217
                     case SDL.SDL_EventType.SDL_QUIT:
                         isRunning = false;
                         break;
+
+
                 }
 
                 Update();
