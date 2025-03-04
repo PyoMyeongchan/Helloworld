@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3pP6t/XoU6w=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\SDL_20250304\\SDL_20250304.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\sayers.sdl2.core\\1.0.11\\sayers.sdl2.core.1.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
