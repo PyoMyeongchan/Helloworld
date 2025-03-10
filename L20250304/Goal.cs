@@ -9,7 +9,7 @@ namespace L20250217
     public class Goal : GameObject
     {
         public Goal(int inX, int inY, char inShape)
-        {
+        {/*
             X = inX;
             Y = inY;
             Shape = inShape;
@@ -21,6 +21,7 @@ namespace L20250217
             color.b = 255;
 
             LoadMap("data/Goal.Bmp");
+            */
         }
     }
 }

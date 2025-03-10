@@ -15,7 +15,7 @@ namespace L20250217
 
 
         public Monster(int inX, int inY, char inShape)
-        {
+        {/*
             X = inX;
             Y = inY;
             Shape = inShape;
@@ -26,10 +26,12 @@ namespace L20250217
             color.g = 100;
             color.b = 100;
             LoadMap("data/Monster.Bmp");
+            */
         }
 
         public override void Update()
         {
+            /*
             if (elapsedTime >= 500.0f)
             {
                 int Direction = rand.Next(0, 4);
@@ -71,6 +73,7 @@ namespace L20250217
 
             Console.SetCursorPosition(30, 10);
             Console.Write(Time.deltaTime);
+        */
         }
     }
 }

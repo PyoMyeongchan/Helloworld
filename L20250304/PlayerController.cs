@@ -8,35 +8,10 @@ using static SDL2.SDL;
 
 namespace L20250217
 {
-    public class Player : GameObject
+    public class PlayerController : Component
     {
-
-        public Player(int inX, int inY, char inShape)
-        {
-            X = inX;
-            Y = inY;
-            Shape = inShape;
-            orderLayer = 4;
-            isTrigger = true;
-
-            color.r = 0;
-            color.g = 0;
-            color.b = 255;
-            
-            colorKey.r = 255;
-            colorKey.g = 0;
-            colorKey.b = 255;
-            colorKey.a = 255;
-
-            LoadMap("data/Player.Bmp");
-
-            isAnimation = true;
-
-
-        }
-
         public override void Update()
-        {
+        {/*
             if (Input.GetKeyDown(SDL_Keycode.SDLK_w) || Input.GetKeyDown(SDL_Keycode.SDLK_UP))
             {
                 if (!PredictCollision(X, Y - 1))
@@ -74,7 +49,7 @@ namespace L20250217
                 }
                 spriteIndexY = 1;
             }
-
+          */  
         }
     }
 }

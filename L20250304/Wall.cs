@@ -9,7 +9,7 @@ namespace L20250217
     public class Wall : GameObject
     {
         public Wall(int inX, int inY, char inShape)
-        {
+        {/*
             X = inX;
             Y = inY;
             Shape = inShape;
@@ -20,6 +20,7 @@ namespace L20250217
             color.g = 0;
             color.b = 0;
             LoadMap("data/Wall.Bmp");
+            */
         }
     }
 }

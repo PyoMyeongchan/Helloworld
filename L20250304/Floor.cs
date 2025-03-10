@@ -10,6 +10,7 @@ namespace L20250217
     {
         public Floor(int inX, int inY, char inShape)
         {
+            /*
             X = inX;
             Y = inY;
             Shape = inShape;
@@ -20,6 +21,7 @@ namespace L20250217
             color.b = 0;
 
             LoadMap("data/Floor.Bmp");
+            */
         }
 
         //public override void Render()

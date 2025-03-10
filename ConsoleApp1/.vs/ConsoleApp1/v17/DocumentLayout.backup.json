@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{B5E39163-6A72-41CD-88C0-0CA4AE65BB58}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5E39163-6A72-41CD-88C0-0CA4AE65BB58}|ConsoleApp1.csproj|c:\\users\\user\\documents\\github\\hello wolrd\\consoleapp1\\child1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5E39163-6A72-41CD-88C0-0CA4AE65BB58}|ConsoleApp1.csproj|solutionrelative:child1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B5E39163-6A72-41CD-88C0-0CA4AE65BB58}|ConsoleApp1.csproj|c:\\users\\user\\documents\\github\\hello wolrd\\consoleapp1\\child2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5E39163-6A72-41CD-88C0-0CA4AE65BB58}|ConsoleApp1.csproj|solutionrelative:child2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5E39163-6A72-41CD-88C0-0CA4AE65BB58}|ConsoleApp1.csproj|c:\\users\\user\\documents\\github\\hello wolrd\\consoleapp1\\child1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5E39163-6A72-41CD-88C0-0CA4AE65BB58}|ConsoleApp1.csproj|solutionrelative:child1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,9 +30,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\ConsoleApp1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwAsAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\ConsoleApp1\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwEUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T02:31:30.714Z",
               "IsPinned": true,
@@ -40,7 +40,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "child2.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\ConsoleApp1\\child2.cs",
               "RelativeDocumentMoniker": "child2.cs",
@@ -52,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "child1.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\ConsoleApp1\\child1.cs",
               "RelativeDocumentMoniker": "child1.cs",
