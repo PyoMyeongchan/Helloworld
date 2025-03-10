@@ -18,6 +18,8 @@ namespace L20250217
             color.r = 0;
             color.g = 0;
             color.b = 0;
+
+            LoadMap("data/Floor.Bmp");
         }
 
         //public override void Render()

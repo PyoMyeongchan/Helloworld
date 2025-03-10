@@ -19,6 +19,8 @@ namespace L20250217
             color.r = 0;
             color.g = 255;
             color.b = 255;
+
+            LoadMap("data/Goal.Bmp");
         }
     }
 }

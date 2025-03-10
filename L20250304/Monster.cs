@@ -25,6 +25,7 @@ namespace L20250217
             color.r = 100;
             color.g = 100;
             color.b = 100;
+            LoadMap("data/Monster.Bmp");
         }
 
         public override void Update()
