@@ -65,10 +65,9 @@ namespace L20250217
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.gameObject.name == "Player")
+            if (other.gameObject.name.CompareTo("Player") == 0)
             {
-                Console.WriteLine("Game Over");
-                Engine.Instance.Quit();
+                GameObject.Find("GameManager").GetComponent<GameManager>().isGameOver = true;
 
             }
         }
