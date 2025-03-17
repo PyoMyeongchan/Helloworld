@@ -1,6 +1,9 @@
-﻿using SDL2;
+﻿using Newtonsoft.Json;
+using SDL2;
 using System;
+using System.IO;
 using System.Numerics;
+using System.Text.Json.Serialization;
 using System.Threading;
 
 namespace L20250217
@@ -239,7 +242,35 @@ namespace L20250217
             //sort
             world.Sort();
             Awake();
+            
+            /* JSON으로 변환하여 파일 저장
+            string SceneFile = JsonConvert.SerializeObject(world.GetAllGameObjects, new JsonSerializerSettings
+            {
+                TypeNameHandling = TypeNameHandling.All,
+                ReferenceLoopHandling = ReferenceLoopHandling.Ignore    // Gameobject 루프방지
 
+            });
+            Console.WriteLine(SceneFile);
+
+            StreamWriter sw = new StreamWriter("sample.uasset");
+
+            sw.WriteLine(SceneFile);
+            sw.Close();
+            */
+
+            /* 로드하기 - 현재는 c#만 쓰지않아서(Inptr) 오류가나온다 
+            StreamReader sr2 = new StreamReader("sample.uasset");
+
+            string SceneFile = sr2.ReadToEnd(); 
+            sr2.Close();
+
+            List<GameObject> gos = JsonConvert.DeserializeObject<List<GameObject>>(SceneFile, new JsonSerializerSettings
+            {
+                TypeNameHandling = TypeNameHandling.All,
+                ReferenceLoopHandling = ReferenceLoopHandling.Ignore    // Gameobject 루프방지
+
+            });
+            */
         }
 
         public void ProcessInput()
