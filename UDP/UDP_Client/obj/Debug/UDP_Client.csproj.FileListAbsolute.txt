@@ -1,0 +1,7 @@
+C:\Users\user\Documents\GitHub\Hello Wolrd\UDP_Client\bin\Debug\UDP_Client.exe.config
+C:\Users\user\Documents\GitHub\Hello Wolrd\UDP_Client\bin\Debug\UDP_Client.exe
+C:\Users\user\Documents\GitHub\Hello Wolrd\UDP_Client\bin\Debug\UDP_Client.pdb
+C:\Users\user\Documents\GitHub\Hello Wolrd\UDP_Client\obj\Debug\UDP_Client.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\Hello Wolrd\UDP_Client\obj\Debug\UDP_Client.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\Hello Wolrd\UDP_Client\obj\Debug\UDP_Client.exe
+C:\Users\user\Documents\GitHub\Hello Wolrd\UDP_Client\obj\Debug\UDP_Client.pdb
