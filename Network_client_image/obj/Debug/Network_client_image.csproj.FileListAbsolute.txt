@@ -1,0 +1,7 @@
+C:\Users\user\Documents\GitHub\Hello Wolrd\Network_client_image\bin\Debug\Network_client_image.exe.config
+C:\Users\user\Documents\GitHub\Hello Wolrd\Network_client_image\bin\Debug\Network_client_image.exe
+C:\Users\user\Documents\GitHub\Hello Wolrd\Network_client_image\bin\Debug\Network_client_image.pdb
+C:\Users\user\Documents\GitHub\Hello Wolrd\Network_client_image\obj\Debug\Network_client_image.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\Hello Wolrd\Network_client_image\obj\Debug\Network_client_image.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\Hello Wolrd\Network_client_image\obj\Debug\Network_client_image.exe
+C:\Users\user\Documents\GitHub\Hello Wolrd\Network_client_image\obj\Debug\Network_client_image.pdb
