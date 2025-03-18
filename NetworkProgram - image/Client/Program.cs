@@ -21,13 +21,14 @@ namespace Client
             clientSocket.Connect(listenEndPoint);
 
             FileStream fsOutput = new FileStream("1_copy.webp", FileMode.Create);
+            byte[] buffer = new byte[1096];
             int RecvLength = 0;
             do
             {
-                byte[] buffer = new byte[1096];
                 RecvLength = clientSocket.Receive(buffer);
                 fsOutput.Write(buffer, 0, RecvLength);
-            } while (RecvLength > 0);
+            } 
+            while (RecvLength > 0);
 
             clientSocket.Close();
             fsOutput.Close();

@@ -14,14 +14,13 @@ namespace Network_client_image
             FileStream fsInput = new FileStream("1.webp", FileMode.Open);
             FileStream fsOutput = new FileStream("1_copy.webp", FileMode.CreateNew);
 
-            byte[] buffer = new byte[4096];
+            byte[] buffer = new byte[1096];
 
             int ReadSize = 0;
             do
             {
                 ReadSize = fsInput.Read(buffer, 0, buffer.Length);
-                fsOutput.Write(buffer, 0, ReadSize);
-
+                fsOutput.Write(buffer, 0, buffer.Length);
             }
             while (ReadSize > 0);
 
