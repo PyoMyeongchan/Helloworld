@@ -1,12 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\UDP_Server\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\UDP\\UDP_Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F321B5BA-BD25-438A-8216-DAEBEEFC25FB}|..\\UDP_Client\\UDP_Client.csproj|c:\\users\\user\\documents\\github\\hello wolrd\\udp_client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F321B5BA-BD25-438A-8216-DAEBEEFC25FB}|..\\UDP_Client\\UDP_Client.csproj|c:\\users\\user\\documents\\github\\hello wolrd\\udp\\udp_client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2F6F941-FEFB-4131-98C4-3BE80D3388E8}|UDP_Server.csproj|c:\\users\\user\\documents\\github\\hello wolrd\\udp_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2F6F941-FEFB-4131-98C4-3BE80D3388E8}|UDP_Server.csproj|C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\UDP\\UDP_Server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2F6F941-FEFB-4131-98C4-3BE80D3388E8}|UDP_Server.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,24 +23,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\UDP_Client\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\UDP\\UDP_Client\\Program.cs",
               "RelativeDocumentMoniker": "..\\UDP_Client\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\UDP_Client\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\UDP\\UDP_Client\\Program.cs",
               "RelativeToolTip": "..\\UDP_Client\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T05:27:09.18Z",
+              "WhenOpened": "2025-03-18T06:24:19.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\UDP_Server\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\UDP\\UDP_Server\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\UDP_Server\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\UDP\\UDP_Server\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T05:17:20.793Z",
               "EditorCaption": ""

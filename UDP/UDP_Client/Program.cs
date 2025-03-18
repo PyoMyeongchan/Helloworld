@@ -10,6 +10,7 @@ namespace UDP_Client
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
             Socket serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
@@ -31,6 +32,16 @@ namespace UDP_Client
             Console.WriteLine(message2);
 
             serverSocket.Close();
+            
+
+            // 도매인으로 IP받아오기
+            IPHostEntry host = Dns.GetHostEntry("login.gameserver.co.kr");
+            foreach (IPAddress address in host.AddressList)
+            {
+                Console.WriteLine(address);
+            }
+
         }
+        
     }
 }
