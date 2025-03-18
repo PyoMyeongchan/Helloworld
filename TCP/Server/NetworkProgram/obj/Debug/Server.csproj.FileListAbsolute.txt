@@ -8,3 +8,13 @@ C:\Users\user\Documents\GitHub\Hello Wolrd\Server\NetworkProgram\obj\Debug\Serve
 C:\Users\user\Documents\GitHub\Hello Wolrd\Server\NetworkProgram\obj\Debug\Server.csproj.Up2Date
 C:\Users\user\Documents\GitHub\Hello Wolrd\Server\NetworkProgram\obj\Debug\NetworkProgram.exe
 C:\Users\user\Documents\GitHub\Hello Wolrd\Server\NetworkProgram\obj\Debug\NetworkProgram.pdb
+C:\Users\user\Documents\GitHub\Hello Wolrd\TCP\Server\NetworkProgram\bin\Debug\NetworkProgram.exe.config
+C:\Users\user\Documents\GitHub\Hello Wolrd\TCP\Server\NetworkProgram\bin\Debug\NetworkProgram.exe
+C:\Users\user\Documents\GitHub\Hello Wolrd\TCP\Server\NetworkProgram\bin\Debug\NetworkProgram.pdb
+C:\Users\user\Documents\GitHub\Hello Wolrd\TCP\Server\NetworkProgram\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Documents\GitHub\Hello Wolrd\TCP\Server\NetworkProgram\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Documents\GitHub\Hello Wolrd\TCP\Server\NetworkProgram\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\Hello Wolrd\TCP\Server\NetworkProgram\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\Hello Wolrd\TCP\Server\NetworkProgram\obj\Debug\Server.csproj.Up2Date
+C:\Users\user\Documents\GitHub\Hello Wolrd\TCP\Server\NetworkProgram\obj\Debug\NetworkProgram.exe
+C:\Users\user\Documents\GitHub\Hello Wolrd\TCP\Server\NetworkProgram\obj\Debug\NetworkProgram.pdb

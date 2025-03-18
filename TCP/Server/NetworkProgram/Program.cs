@@ -33,12 +33,49 @@ namespace Server
             // 상태처리 - 10명까지
             listenSocket.Listen(10);
 
-            bool isRunning = true;
+            Socket clientSocket = listenSocket.Accept();
 
+            // 패킷 : header + 메세지(data) 실제 패킷 + Custom패킷
+            // 패킷 길이 받기(header)
+            byte[] headerBuffer = new byte[2];
+            int RecvLength = clientSocket.Receive(headerBuffer, 2, SocketFlags.None);
+            short packetlength = BitConverter.ToInt16(headerBuffer, 0);
+            packetlength = IPAddress.NetworkToHostOrder(packetlength);
+
+            // [][][][]
+            // 실제 패킷 (header 길이 만큼)
+            byte[] dataBuffer = new byte[4096];
+            RecvLength = clientSocket.Receive(dataBuffer, packetlength, SocketFlags.None);
+            string JsonString = Encoding.UTF8.GetString(dataBuffer);
+
+            Console.WriteLine(JsonString);
+
+            // Custom 패킷 만들기
+            // 다시 전송 메시지
+            string message = "{\"message\" : \"클라이언트에서 받고 서버에서 패킷 추가.\"}";
+            byte[] messageBuffer = Encoding.UTF8.GetBytes(message);
+            ushort length = (ushort)IPAddress.HostToNetworkOrder((short)messageBuffer.Length);
+            // 길이  자료
+            // [][]  [][][][][][][][]
+            headerBuffer = BitConverter.GetBytes(length);
+
+            // [][][][][][][][][][]
+            byte[] packetBuffer = new byte[headerBuffer.Length + messageBuffer.Length];
+
+            Buffer.BlockCopy(headerBuffer, 0, packetBuffer, 0, headerBuffer.Length);
+            Buffer.BlockCopy(messageBuffer, 0, packetBuffer, headerBuffer.Length, messageBuffer.Length);
+
+            int sendLength = clientSocket.Send(packetBuffer, packetBuffer.Length, SocketFlags.None);
+
+            clientSocket.Close();
+
+
+            /*
+            bool isRunning = true;
             while (isRunning)
             {
                 // 블록킹
-                Socket clientSocket = listenSocket.Accept();
+
 
                 byte[] buffer = new byte[1024]; // 1kb
 
@@ -62,10 +99,10 @@ namespace Server
                     int sendLength = clientSocket.Send(message);
 
                 }
-
+            
                 clientSocket.Close();
             }
-
+            */
             listenSocket.Close();
         }
 
