@@ -14,15 +14,12 @@ namespace Client
     class Program
     {   // 숫자형을 byte에 넣어보고, byte를 숫자 자료형으로 넣어보기 작업
         // [][]
-        static void Main(string[] args)
+
+
+        static Socket clientSocket;
+
+        static void ChatInput()
         {
-
-            Socket clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-
-            IPEndPoint serverEndPoint = new IPEndPoint(IPAddress.Parse("192.168.0.28"), 4000);
-
-            clientSocket.Connect(serverEndPoint);
-
             while (true)
             {
                 string inputChat;
@@ -46,10 +43,19 @@ namespace Client
                 Buffer.BlockCopy(message, 0, buffer, 2, length);
 
                 int sendLength = clientSocket.Send(buffer, buffer.Length, SocketFlags.None);
+            }
+        }
+
+        static void ReceiveMessage()
+        {
+            while (true)
+            {
+                byte[] lengthBuffer = new byte[2];
 
                 int recvLength = clientSocket.Receive(lengthBuffer, 2, SocketFlags.None);
 
-                length = BitConverter.ToUInt16(lengthBuffer, 0);
+                ushort length = BitConverter.ToUInt16(lengthBuffer, 0);
+
                 length = (ushort)IPAddress.NetworkToHostOrder((short)length);
 
 
@@ -60,9 +66,33 @@ namespace Client
                 string JsonString = Encoding.UTF8.GetString(recvBuffer);
 
                 Console.WriteLine(JsonString);
-
-                Thread.Sleep(100);
+                                
             }
+
+        }
+
+
+        static void Main(string[] args)
+        {
+
+            clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+
+            IPEndPoint serverEndPoint = new IPEndPoint(IPAddress.Parse("192.168.0.28"), 4000);
+
+            clientSocket.Connect(serverEndPoint);
+
+            Thread chatInputThread = new Thread(new ThreadStart(ChatInput));
+
+            Thread ReceiveMessageThread = new Thread(new ThreadStart(ReceiveMessage));
+
+            chatInputThread.IsBackground = true;
+            ReceiveMessageThread.IsBackground = true;
+
+            chatInputThread.Start();
+            ReceiveMessageThread.Start();
+
+            chatInputThread.Join();
+            ReceiveMessageThread.Join();
 
 
             clientSocket.Close();
