@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\TCP\\Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF89A970-5A37-4D7C-8AA9-BBDB2FF80072}|NetworkProgram\\Server.csproj|C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\TCP\\Server\\networkprogram\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EF89A970-5A37-4D7C-8AA9-BBDB2FF80072}|NetworkProgram\\Server.csproj|c:\\users\\user\\documents\\github\\hello wolrd\\tcp\\server\\networkprogram\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF89A970-5A37-4D7C-8AA9-BBDB2FF80072}|NetworkProgram\\Server.csproj|solutionrelative:networkprogram\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -18,8 +18,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\TCP\\Server\\NetworkProgram\\Program.cs",
+              "RelativeDocumentMoniker": "NetworkProgram\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\TCP\\Server\\NetworkProgram\\Program.cs*",
+              "RelativeToolTip": "NetworkProgram\\Program.cs*",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFgAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T23:54:59.431Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -28,22 +42,9 @@
               "RelativeDocumentMoniker": "Client\\Program.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\TCP\\Server\\Client\\Program.cs",
               "RelativeToolTip": "Client\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T23:55:54.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\TCP\\Server\\NetworkProgram\\Program.cs",
-              "RelativeDocumentMoniker": "NetworkProgram\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\Hello Wolrd\\TCP\\Server\\NetworkProgram\\Program.cs",
-              "RelativeToolTip": "NetworkProgram\\Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAQwEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T23:54:59.431Z",
+              "WhenOpened": "2025-03-24T03:03:07.946Z",
               "EditorCaption": ""
             }
           ]

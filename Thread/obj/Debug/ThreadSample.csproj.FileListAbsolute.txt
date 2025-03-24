@@ -1,0 +1,7 @@
+C:\Users\user\Documents\GitHub\Hello Wolrd\Thread\bin\Debug\Thread.exe.config
+C:\Users\user\Documents\GitHub\Hello Wolrd\Thread\bin\Debug\Thread.exe
+C:\Users\user\Documents\GitHub\Hello Wolrd\Thread\bin\Debug\Thread.pdb
+C:\Users\user\Documents\GitHub\Hello Wolrd\Thread\obj\Debug\ThreadSample.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\Hello Wolrd\Thread\obj\Debug\ThreadSample.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\Hello Wolrd\Thread\obj\Debug\Thread.exe
+C:\Users\user\Documents\GitHub\Hello Wolrd\Thread\obj\Debug\Thread.pdb
