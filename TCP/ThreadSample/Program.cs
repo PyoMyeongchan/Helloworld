@@ -10,6 +10,7 @@ namespace ThreadSample
 {
     class Program
     {
+        // List<Thread> threads; 이같은 경우 C# 자제에서 lock이 걸려있긴하다! 안되어있을 경우 lock을 걸자
         // OS가 끊는걸 여기서는 못하게 하도록하는 것 : 동기화 객체
         static Object _lock = new object();
 
@@ -34,17 +35,18 @@ namespace ThreadSample
             {
                 for (int i = 0; i < 100000; ++i)
                 {
-                    //Interlocked.Increment(ref money); // switching 안되게 설정
+                    // Interlocked.Increment(ref money); // switching 안되게 설정
+                    // Interlocked.CompareExchange(ref money, i, 0);
 
                     // OS가 끊는걸 적용하지 못하도록 설정, 공통으로 쓰는 영역에만 사용
                     // unity는 업데이트 함수에서 이미 thread를 적용하여 lock, 원자성 보호! 그래서 thread를 쓰면 뻗는다.
 
 
                     money++;
-                    // ASM형식
+                    // ASM형식 기계어형식상으로는 3줄이나 된다!
                     // int temp = money;
                     // temp = temp + 1;
-                    //money = temp;
+                    // money = temp;
 
                     /*
                     // SpinLock 형식
@@ -98,18 +100,20 @@ namespace ThreadSample
             // Background로 돌거야!
             thread1.IsBackground = true;
             // B함수 따로 실행 시켜줘 (Thread) -> OS 부탁
+            // OS 등록 // 바로 시작되는 것이 아니다! 언제 시작할지는 모른다.
             thread1.Start();
             
             thread2.IsBackground = true;
             thread2.Start();
 
-            // thread2.Abort(); // 데드락이 될경우 해당 thread 종료한다. 하지만 저장된 자료도 사라진다는 점
+            // thread2.Abort(); // 데드락이 될경우 해당 thread 종료한다. 해결방법이 끄는것밖에 없다. 하지만 저장된 자료도 사라진다는 점
             
             // foreground가 끝나기전까지 기다린다.
             thread1.Join();
             thread2.Join();
 
-                       
+            // Thread.Yield(); 스레드 양보 다른 스레드 실행
+            // Thread.Sleep(); 잠시 쉬도록 하지만 상황에 따라 바로 될 수도 있음
 
             Console.WriteLine(money);
            
